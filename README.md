@@ -11,11 +11,11 @@ This guide is for **educational purposes only**. Proceed at your own risk.
 | Feature                     | GPGB (Google Play Games Beta) | GPGPCDE (Developer Emulator) |
 |-----------------------------|------------------------------|-----------------------------|
 | **Supported Architectures** | ARM, x86, x86_64            | x86, x86_64 only           |
-| **Google Play Support**     | Yes                          | No                          |
+| **Google Play Support**     | Yes                          | Yes                          |
 | **Game Compatibility**      | Higher (More Android Games)  | Limited (x86-only)         |
 | **Rooting Possible**        | Yes                          | Yes                         |
 | **Performance**             | Optimized for gaming        | Dev testing focused         |
-| **Key Mapping Support**     | Limited                      | More control                |
+| **ADB**     | No                      | Yes                |
 
 ---
 
@@ -23,7 +23,7 @@ This guide is for **educational purposes only**. Proceed at your own risk.
 1. **Install and sign in** to your Google account in GPGB.  
 2. **Create a folder** named `GPGB` on your desktop.  
 3. **Download** [this zip file](https://github.com/chsbuffer/hpesuperpower/releases/tag/1.1.1) and extract its contents into the `GPGB` folder.  
-4. Open **Command Prompt (CMD)** or **PowerShell** as an administrator and run the following command:  
+4. Open **Command Prompt (CMD)** as an administrator and run the following command:  
    ```bash
    cd /d %UserProfile%\Desktop\GPGB
    ```
@@ -38,7 +38,7 @@ This guide is for **educational purposes only**. Proceed at your own risk.
 
 ## 📥 Step 2: Installing Magisk & Aurora Store  
 1. **Open GPGB**.  
-2. Click on the **Profile icon** (top-right).  
+2. Click on the **Profile icon** .  
 3. Scroll down and find **App Version**.  
 4. Tap **App Version** multiple times until a new window appears.  
 5. Click **Continue** to access **Developer Settings**.  
